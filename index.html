@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ElTools store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="libs/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/slick-carousel/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="links">
+            <ul class="links__controls">
+                <li class="links__item">
+                    <a href="#" class="links__item-link" title="Сравнение">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="links__icon" viewBox="0 0 300 300" role="presentation">
+                            <use xlink:href="img/compare.svg#compare"></use>
+                        </svg>
+                        <span class="links__text">Сравнение</span>
+                    </a>
+                </li>
+                <li class="links__item">
+                    <a href="#" class="links__item-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="links__icon" viewBox="0 0 64 64" role="presentation">
+                            <use xlink:href="img/heart.svg#heart"></use>
+                        </svg>
+                        <span class="links__text">Избранное</span>
+                    </a>
+                </li>
+                <li class="links__item">
+                    <a href="#" class="links__item-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="links__icon" viewBox="0 0 64 64" role="presentation">
+                            <use xlink:href="img/signin.svg#signin"></use>
+                        </svg>
+                        <span class="links__text">Вход</span>
+                    </a>
+                </li>
+            </ul>
+         </div>
+        <div class="user-panel">
+            <div class="logo">
+                <a href="http://eltools.by" class="logo__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="logo__logo-icon logo__top-icon" viewBox="0 0 100 100" role="presentation">
+                        <use xlink:href="img/logo.svg#logo"></use>
+                    </svg>
+                    <div class="logo__info">
+                        <span class="logo__site">Eltools.by</span>
+                        <span class="logo__add-text">work easy always</span>
+                    </div>
+                </a>
+            </div>
+            <div class="service-info-search">
+                <form class="info-search">
+                    <div class="short-contacts">
+                        <div class="contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="contact-item__icon" viewBox="0 0 50 64" role="presentation">
+                                <use xlink:href="img/phone.svg#phone"></use>
+                            </svg>
+                            <span class="contact-item__text">8 (800) 684-55-94</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="contact-item__icon" viewBox="0 0 64 64" role="presentation">
+                                <use xlink:href="img/letter.svg#letter"></use>
+                            </svg>
+                            <span class="contact-item__text">info@eltools.by</span>
+                        </div>
+                    </div>
+                    <div class="search-box">
+                        <input type="search" name="search" class="search-box__field" placeholder="Введите поисковую фразу">
+                        <button class="search-box__btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="search-box__icon" viewBox="0 0 60.88 60.88" role="presentation">
+                                <use xlink:href="img/search.svg#search"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+                <a href="#" class="pre-order">
+                    <div class="pre-order__sum">7 500 р.</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="pre-order__img" viewBox="0 0 59 64" role="presentation">
+                        <use xlink:href="img/shopping_cart.svg#shopping-cart"></use>
+                    </svg>
+                    <div class="pre-order__count-box">
+                        <div class="pre-order__count">3</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </header>
+    <nav class="navigate">
+        <label for="nav-main-toggle" class="nav-main-btn">Меню</label>
+        <input type="checkbox" name="menucheck" id="nav-main-toggle">
+        <ul id="nav-main" class="nav-main">
+            <li class="nav-main__item">
+                <a href="#" class="nav-main__item-link">Главная</a>
+            </li>
+            <li class="nav-main__item">
+                <a href="#" class="nav-main__item-link">Каталог</a>
+            </li>
+            <li class="nav-main__item">
+                <a href="#" class="nav-main__item-link">Галерея</a>
+            </li>
+            <li class="nav-main__item">
+                <a href="#" class="nav-main__item-link">Акции</a>
+            </li>
+            <li class="nav-main__item">
+                <a href="#" class="nav-main__item-link">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="main-area">
+        <div class="content-area">
+            <aside class="aside">
+                <label for="nav-category-toggle" class="nav-category-btn">Категории</label>
+                <input type="checkbox" name="menucheck" id="nav-category-toggle">
+                <ul class="aside__categories">
+                    <li class="aside__caption">Категории</li>
+                    <li class="aside__item">
+                        <a href="#" class="aside__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="aside__icon" viewBox="0 0 59 64" role="presentation">
+                                <use xlink:href="img/home.svg#home"></use>
+                            </svg>
+                            <span class="aside__text">Сверлильные</span>
+                        </a>
+                    </li>
+                    <li class="aside__item">
+                        <a href="#" class="aside__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="aside__icon" viewBox="0 0 64 64" role="presentation">
+                                <use xlink:href="img/heart.svg#heart"></use>
+                            </svg>
+                            <span class="aside__text">Шлифовальные</span>
+                        </a>
+                    </li>
+                    <li class="aside__item">
+                        <a href="#" class="aside__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="aside__icon" viewBox="0 0 69 64" role="presentation">
+                                <use xlink:href="img/group.svg#group"></use>
+                            </svg>
+                            <span class="aside__text">Долбёжные</span>
+                        </a>
+                    </li>
+                    <li class="aside__item">
+                        <a href="#" class="aside__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="aside__icon" viewBox="0 0 69 64" role="presentation">
+                                <use xlink:href="img/calendar.svg#calendar"></use>
+                            </svg>
+                            <span class="aside__text">Режущие</span>
+                        </a>
+                    </li>
+                    <li class="aside__item">
+                        <a href="#" class="aside__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="aside__icon" viewBox="0 0 64 64" role="presentation">
+                                <use xlink:href="img/gear.svg#gear"></use>
+                            </svg>
+                            <span class="aside__text">Измерительные</span>
+                        </a>
+                    </li>
+                    <li class="aside__item">
+                        <a href="#" class="aside__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="aside__icon" viewBox="0 0 50 64" role="presentation">
+                                <use xlink:href="img/paper_clip.svg#paper-clip"></use>
+                            </svg>
+                            <span class="aside__text">Прессующие</span>
+                        </a>
+                    </li>
+                    <li class="aside__item">
+                        <a href="#" class="aside__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="aside__icon" viewBox="0 0 59 59" role="presentation">
+                                <use xlink:href="img/star.svg#star"></use>
+                            </svg>
+                            <span class="aside__text">Составные станков</span>
+                        </a>
+                    </li>
+                    <li class="aside__item">
+                        <a href="#" class="aside__link">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="aside__icon" viewBox="0 0 69 64" role="presentation">
+                                <use xlink:href="img/cloud.svg#cloud"></use>
+                            </svg>
+                            <span class="aside__text">Запасные части</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="advs">
+                    <a href="#" class="advs__link">
+                        <img src="img/adv1.jpg" alt="picture" class="advs__adv">
+                    </a>
+                    <a href="#" class="advs__link">
+                        <img src="img/adv2.jpg" alt="picture" class="advs__adv">
+                    </a>
+                </div>
+            </aside>
+            <main id="main">
+                <div class="wrap">
+                    <div class="slider-wrapper">
+                        <div class="slider">
+                            <div class="slider__img-container">
+                                <img src="img/slider_img1.jpg" alt="product info" class="slider__img">
+                            </div>
+                            <div class="slider__info">
+                                <h1 class="slider__caption">Фрезер кромочный RT0700CX</h1>
+                                <span class="slider__note">Новые поступления фрез</span>
+                                <p class="slider__description">
+                                    Рады представить вам новое поступление высококачественных кромочных фрез с широким диапозоном настроек
+                                </p>
+                                <a href="#" class="slider__buy-btn">Купить сейчас</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-wrapper">
+                            <div class="slider">
+                                <div class="slider__img-container">
+                                    <img src="img/slider_img1.jpg" alt="product info" class="slider__img">
+                                </div>
+                                <div class="slider__info">
+                                    <h1 class="slider__caption">Фрезер кромочный RT0700CX</h1>
+                                    <span class="slider__note">Новые поступления фрез</span>
+                                    <p class="slider__description">
+                                        Рады представить вам новое поступление высококачественных кромочных фрез с широким диапозоном настроек
+                                    </p>
+                                    <a href="#" class="slider__buy-btn">Купить сейчас</a>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="slider-wrapper">
+                        <div class="slider">
+                            <div class="slider__img-container">
+                                <img src="img/slider_img1.jpg" alt="product info" class="slider__img">
+                            </div>
+                            <div class="slider__info">
+                                <h1 class="slider__caption">Фрезер кромочный RT0700CX</h1>
+                                <span class="slider__note">Новые поступления фрез</span>
+                                <p class="slider__description">
+                                    Рады представить вам новое поступление высококачественных кромочных фрез с широким диапозоном настроек
+                                </p>
+                                <a href="#" class="slider__buy-btn">Купить сейчас</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-wrapper">
+                        <div class="slider">
+                            <div class="slider__img-container">
+                                <img src="img/slider_img1.jpg" alt="product info" class="slider__img">
+                            </div>
+                            <div class="slider__info">
+                                <h1 class="slider__caption">Фрезер кромочный RT0700CX</h1>
+                                <span class="slider__note">Новые поступления фрез</span>
+                                <p class="slider__description">
+                                    Рады представить вам новое поступление высококачественных кромочных фрез с широким диапозоном настроек
+                                </p>
+                                <a href="#" class="slider__buy-btn">Купить сейчас</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hot-sections">
+                    <a href="#" class="hot-sections__hot-section">
+                        <div class="hot-sections__caption sales">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="hot-sections__icon sales" viewBox="0 0 69 64" role="presentation">
+                                <use xlink:href="img/credit_card.svg#credit-card"></use>
+                            </svg>
+                            <span class="hot-sections__text">Продажа</span>
+                        </div>
+                        <span class="hot-sections__description">Широкий ассортимент моделей</span>
+                    </a>
+                    <a href="#" class="hot-sections__hot-section">
+                        <div class="hot-sections__caption discounts">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="hot-sections__icon discounts" viewBox="0 0 64 64" role="presentation">
+                                <use xlink:href="img/like.svg#like"></use>
+                            </svg>
+                            <span class="hot-sections__text">Скидки</span>
+                        </div>
+                        <span class="hot-sections__description">Невообразимо низкие цены</span>
+                    </a>
+                    <a href="#" class="hot-sections__hot-section">
+                        <div class="hot-sections__caption promos">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="hot-sections__icon promos" viewBox="0 0 64 64" role="presentation">
+                                <use xlink:href="img/gift.svg#gift"></use>
+                            </svg>
+                            <span class="hot-sections__text">Акции</span>
+                        </div>
+                        <span class="hot-sections__description">Широкий ассортимент моделей</span>
+                    </a>
+                </div>
+                <div class="top-products-categories">
+                    <div class="top-products-categories__top-products-category">
+                        <div class="top-products-categories__category-caption">Новинки</div>
+                        <div class="top-products-categories__products">
+                            <div class="top-products-categories__product">
+                                <img src="img/product1.jpg" alt="product" class="top-products-categories__product-img">
+                                <p class="top-products-categories__product-name">Болгарка</p>
+                                <p class="top-products-categories__product-price">35 000 р.</p>
+                                <div class="top-products-categories__to-buy">
+                                    <button class="top-products-categories__buy-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 59 64" role="presentation">
+                                            <use xlink:href="img/shopping_cart.svg#shopping-cart"></use>
+                                        </svg>
+                                        <span class="top-products-categories__buy-txt">В корзину</span>
+                                    </button>
+                                    <a href="#" class="top-products-categories__buy-fast-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 32 64" role="presentation">
+                                            <use xlink:href="img/lightning.svg#lightning"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="top-products-categories__label lbl-new">
+                                    <span class="top-products-categories__label-txt">new</span>
+                                </div>
+                            </div>
+                            <div class="top-products-categories__product">
+                                <img src="img/product1.jpg" alt="product" class="top-products-categories__product-img">
+                                <p class="top-products-categories__product-name">Болгарка</p>
+                                <p class="top-products-categories__product-price">35 000 р.</p>
+                                <div class="top-products-categories__to-buy">
+                                    <button class="top-products-categories__buy-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 59 64" role="presentation">
+                                            <use xlink:href="img/shopping_cart.svg#shopping-cart"></use>
+                                        </svg>
+                                        <span class="top-products-categories__buy-txt">В корзину</span>
+                                    </button>
+                                    <a href="#" class="top-products-categories__buy-fast-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 32 64" role="presentation">
+                                            <use xlink:href="img/lightning.svg#lightning"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="top-products-categories__label lbl-new">
+                                    <span class="top-products-categories__label-txt">new</span>
+                                </div>
+                            </div>
+                            <div class="top-products-categories__product">
+                                <img src="img/product1.jpg" alt="product" class="top-products-categories__product-img">
+                                <p class="top-products-categories__product-name">Болгарка</p>
+                                <p class="top-products-categories__product-price">35 000 р.</p>
+                                <div class="top-products-categories__to-buy">
+                                    <button class="top-products-categories__buy-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 59 64" role="presentation">
+                                            <use xlink:href="img/shopping_cart.svg#shopping-cart"></use>
+                                        </svg>
+                                        <span class="top-products-categories__buy-txt">В корзину</span>
+                                    </button>
+                                    <a href="#" class="top-products-categories__buy-fast-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 32 64" role="presentation">
+                                            <use xlink:href="img/lightning.svg#lightning"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="top-products-categories__label lbl-new">
+                                    <span class="top-products-categories__label-txt">new</span>
+                                </div>
+                            </div>
+                            <div class="top-products-categories__product">
+                                <img src="img/product1.jpg" alt="product" class="top-products-categories__product-img">
+                                <p class="top-products-categories__product-name">Болгарка</p>
+                                <p class="top-products-categories__product-price">35 000 р.</p>
+                                <div class="top-products-categories__to-buy">
+                                    <button class="top-products-categories__buy-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 59 64" role="presentation">
+                                            <use xlink:href="img/shopping_cart.svg#shopping-cart"></use>
+                                        </svg>
+                                        <span class="top-products-categories__buy-txt">В корзину</span>
+                                    </button>
+                                    <a href="#" class="top-products-categories__buy-fast-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 32 64" role="presentation">
+                                            <use xlink:href="img/lightning.svg#lightning"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="top-products-categories__label lbl-new">
+                                    <span class="top-products-categories__label-txt">new</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-products-categories__top-products-category">
+                        <div class="top-products-categories__category-caption">Товары со скидкой</div>
+                        <div class="top-products-categories__products">
+                            <div class="top-products-categories__product">
+                                <img src="img/product2.jpg" alt="product" class="top-products-categories__product-img">
+                                <p class="top-products-categories__product-name">Ударная дрель</p>
+                                <p class="top-products-categories__product-price">
+                                    35 000 р.
+                                    <span class="top-products-categories__real-price">42 700 р.</span>
+                                </p>
+                                <div class="top-products-categories__to-buy">
+                                    <button class="top-products-categories__buy-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 59 64" role="presentation">
+                                            <use xlink:href="img/shopping_cart.svg#shopping-cart"></use>
+                                        </svg>
+                                        <span class="top-products-categories__buy-txt">В корзину</span>
+                                    </button>
+                                    <a href="#" class="top-products-categories__buy-fast-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 32 64" role="presentation">
+                                            <use xlink:href="img/lightning.svg#lightning"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="top-products-categories__label lbl-discount">
+                                    <span class="top-products-categories__label-txt">-10%</span>
+                                </div>
+                            </div>
+                            <div class="top-products-categories__product">
+                                <img src="img/product2.jpg" alt="product" class="top-products-categories__product-img">
+                                <p class="top-products-categories__product-name">Ударная дрель</p>
+                                <p class="top-products-categories__product-price">
+                                    35 000 р.
+                                    <span class="top-products-categories__real-price">42 700 р.</span>
+                                </p>
+                                <div class="top-products-categories__to-buy">
+                                    <button class="top-products-categories__buy-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 59 64" role="presentation">
+                                            <use xlink:href="img/shopping_cart.svg#shopping-cart"></use>
+                                        </svg>
+                                        <span class="top-products-categories__buy-txt">В корзину</span>
+                                    </button>
+                                    <a href="#" class="top-products-categories__buy-fast-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 32 64" role="presentation">
+                                            <use xlink:href="img/lightning.svg#lightning"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="top-products-categories__label lbl-discount">
+                                    <span class="top-products-categories__label-txt">-10%</span>
+                                </div>
+                            </div>
+                            <div class="top-products-categories__product">
+                                <img src="img/product2.jpg" alt="product" class="top-products-categories__product-img">
+                                <p class="top-products-categories__product-name">Ударная дрель</p>
+                                <p class="top-products-categories__product-price">
+                                    35 000 р.
+                                    <span class="top-products-categories__real-price">42 700 р.</span>
+                                </p>
+                                <div class="top-products-categories__to-buy">
+                                    <button class="top-products-categories__buy-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 59 64" role="presentation">
+                                            <use xlink:href="img/shopping_cart.svg#shopping-cart"></use>
+                                        </svg>
+                                        <span class="top-products-categories__buy-txt">В корзину</span>
+                                    </button>
+                                    <a href="#" class="top-products-categories__buy-fast-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 32 64" role="presentation">
+                                            <use xlink:href="img/lightning.svg#lightning"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="top-products-categories__label lbl-discount">
+                                    <span class="top-products-categories__label-txt">-10%</span>
+                                </div>
+                            </div>
+                            <div class="top-products-categories__product">
+                                <img src="img/product2.jpg" alt="product" class="top-products-categories__product-img">
+                                <p class="top-products-categories__product-name">Ударная дрель</p>
+                                <p class="top-products-categories__product-price">
+                                    35 000 р.
+                                    <span class="top-products-categories__real-price">42 700 р.</span>
+                                </p>
+                                <div class="top-products-categories__to-buy">
+                                    <button class="top-products-categories__buy-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 59 64" role="presentation">
+                                            <use xlink:href="img/shopping_cart.svg#shopping-cart"></use>
+                                        </svg>
+                                        <span class="top-products-categories__buy-txt">В корзину</span>
+                                    </button>
+                                    <a href="#" class="top-products-categories__buy-fast-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="top-products-categories__buy-icon" viewBox="0 0 32 64" role="presentation">
+                                            <use xlink:href="img/lightning.svg#lightning"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="top-products-categories__label lbl-discount">
+                                    <span class="top-products-categories__label-txt">-10%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="nav-full">
+        <div class="logo">
+            <a href="http://eltools.by" class="logo__link">
+                <svg xmlns="http://www.w3.org/2000/svg" class="logo__logo-icon logo__bottom-icon" viewBox="0 0 100 100" role="presentation">
+                    <use xlink:href="img/logo.svg#logo"></use>
+                </svg>
+                <div class="logo__info">
+                    <span class="logo__site">Eltools.by</span>
+                    <span class="logo__add-text">work easy always</span>
+                </div>
+            </a>
+        </div>
+            <div class="menu">
+                <ul class="menu-base">
+                    <li class="menu-base__caption">Меню</li>
+                    <li class="menu-base__item">
+                        <a href="#" class="menu-base__link">Главная</a>
+                    </li>
+                    <li class="menu-base__item">
+                        <a href="#" class="menu-base__link">Каталог</a>
+                    </li>
+                    <li class="menu-base__item">
+                        <a href="#" class="menu-base__link">Галерея</a>
+                    </li>
+                    <li class="menu-base__item">
+                        <a href="#" class="menu-base__link">Акции</a>
+                    </li>
+                    <li class="menu-base__item">
+                        <a href="#" class="menu-base__link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="payment">
+                <ul class="menu-base">
+                    <li class="menu-base__caption">Способы оплаты</li>
+                    <li class="menu-base__item">
+                        <a href="#" class="menu-base__link">Наличными</a>
+                    </li>
+                    <li class="menu-base__item">
+                        <a href="#" class="menu-base__link">Visa или Mastercard</a>
+                    </li>
+                    <li class="menu-base__item">
+                        <a href="#" class="menu-base__link">В кредит</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contacts">
+            <ul class="menu-base">
+                <li class="menu-base__caption">Контактная информация</li>
+                <li class="menu-base__item">
+                    <span class="menu-base__link">Телефон: 8 (800) 684-55-94</span>
+                </li>
+                <li class="menu-base__item">
+                    <span class="menu-base__link">E-mail: info@eltools.by</span>
+                </li>
+                <li class="menu-base__item">
+                    <span class="menu-base__link">Адрес: г. Москва Новотушинский</span>
+                </li>
+                <li class="menu-base__item">
+                    <span class="menu-base__link">проезд д.234</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer id="footer">
+        <small class="copyrights">&copy; Eltools.by 2018</small>
+        <ul class="net-socials">
+            <li class="net-socials__item">
+                <a href="#" class="net-socials__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="net-socials__icon" viewBox="0 0 69 64" role="presentation">
+                        <use xlink:href="img/vk.svg#vk"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="net-socials__item">
+                <a href="#" class="net-socials__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="net-socials__icon" viewBox="0 0 37 64" role="presentation">
+                        <use xlink:href="img/fb.svg#fb"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="net-socials__item">
+                <a href="#" class="net-socials__link">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="net-socials__icon" viewBox="0 0 64 64" role="presentation">
+                        <use xlink:href="img/twitter.svg#twitter"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="libs/jquery/dist/jquery.js"></script>
+    <script src="libs/slick-carousel/slick/slick.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
